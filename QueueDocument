@@ -1,0 +1,5 @@
+This program implements a basic queue data structure in C++. The queue has a fixed capacity of five integers and follows the FIFO (First In, First Out) principle, meaning that the first element added to the queue is the first element removed.
+
+The program defines a `Queue` class that contains an array to store the elements and two variables, `front` and `rear`, to track the beginning and end of the queue. It provides functions to check whether the queue is empty or full, add elements using `enqueue()`, remove elements using `dequeue()`, count the number of elements and display the contents of the queue.
+
+In the `main()` function, the program creates a queue object and presents the user with a menu of options. The user can add or remove values, check whether the queue is empty or full, count the number of elements, display the queue, clear the screen or exit the program. The menu continues to appear until the user enters `0` to terminate the program.
