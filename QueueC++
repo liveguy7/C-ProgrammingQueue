@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//Queue Implementation in C++ with Menu
+//Queue Implementation in C++
 class Queue {
     private: int front;
     private: int rear;
